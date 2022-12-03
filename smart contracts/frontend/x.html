@@ -1,0 +1,521 @@
+
+ <!DOCTYPE html>
+ <html lang="en-US">
+ <head>
+
+ <meta charset="UTF-8" />
+ <title>Supply Chain Management using BlockChain</title>
+ <link rel="stylesheet" href="./x.css"/>
+ <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+ <link rel="profile" href="https://gmpg.org/xfn/11" />
+ <link rel="pingback" href="https://bridge225.qodeinteractive.com/xmlrpc.php" />
+ <link rel="shortcut icon" type="image/x-icon" href="https://bridge225.qodeinteractive.com/wp-content/themes/bridge/img/favicon.ico">
+ <link rel="apple-touch-icon" href="https://bridge225.qodeinteractive.com/wp-content/themes/bridge/img/favicon.ico" />
+ <link href='//fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900,300italic,400italic,700italic|Quicksand:100,200,300,400,500,600,700,800,900,300italic,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+ <script type="application/javascript">var QodeAjaxUrl = "https://bridge225.qodeinteractive.com/wp-admin/admin-ajax.php"</script>
+ 
+ <script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">//<![CDATA[
+     var gtm4wp_datalayer_name = "dataLayer";
+     var dataLayer = dataLayer || [];
+ //]]>
+ </script>
+ <link rel='dns-prefetch' href='//toolbar.qodeinteractive.com' />
+ <link rel='dns-prefetch' href='//s.w.org' />
+ <link rel="alternate" type="application/rss+xml" title="Bridge &raquo; Feed" href="https://bridge225.qodeinteractive.com/feed/" />
+ <link rel="alternate" type="application/rss+xml" title="Bridge &raquo; Comments Feed" href="https://bridge225.qodeinteractive.com/comments/feed/" />
+ <script type="text/javascript">
+             window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/bridge225.qodeinteractive.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3"}};
+             !function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+         </script>
+ <style type="text/css">
+ img.wp-smiley,
+ img.emoji {
+     display: inline !important;
+     border: none !important;
+     box-shadow: none !important;
+     height: 1em !important;
+     width: 1em !important;
+     margin: 0 .07em !important;
+     vertical-align: -0.1em !important;
+     background: none !important;
+     padding: 0 !important;
+ }
+ </style>
+ <link rel="stylesheet" href="https://bridge225.qodeinteractive.com/wp-content/cache/minify/7de6a.css" media="all" />
+ <link rel='stylesheet' id='qode_demos_css-css' href='https://toolbar.qodeinteractive.com/_qode_toolbar/assets/css/qode-demos-modules.css?ver=5.3' type='text/css' media='all' />
+ <link rel='stylesheet' id='qode_demos_swiper_css-css' href='https://toolbar.qodeinteractive.com/_qode_toolbar/assets/css/swiper.css?ver=5.3' type='text/css' media='all' />
+ <link rel="stylesheet" href="https://bridge225.qodeinteractive.com/wp-content/cache/minify/c138f.css" media="all" />
+ <style id='rs-plugin-settings-inline-css' type='text/css'>
+ #rs-demo-id {}
+ </style>
+ <link rel="stylesheet" href="https://bridge225.qodeinteractive.com/wp-content/cache/minify/8e342.css" media="all" />
+ <style id='stylesheet-inline-css' type='text/css'>
+ .page-id-5.transparent_content, .page-id-5.transparent_content.overlapping_content .content .content_inner > .container, .page-id-5.transparent_content.overlapping_content .content .content_inner > .full_width { background-image: url(https://bridge225.qodeinteractive.com/wp-content/uploads/2018/04/h1-background.jpg);background-size: cover;background-position: center 0px;background-repeat: no-repeat;background-attachment: initial;}
+ 
+  .page-id-5.disabled_footer_top .footer_top_holder, .page-id-5.disabled_footer_bottom .footer_bottom_holder { display: none;}
+ 
+ 
+ </style>
+ <link rel="stylesheet" href="https://bridge225.qodeinteractive.com/wp-content/cache/minify/ba095.css" media="all" />
+ <!--[if lt IE 9]>
+ <link rel='stylesheet' id='vc_lte_ie9-css'  href='https://bridge225.qodeinteractive.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css' type='text/css' media='screen' />
+ <![endif]-->
+ <script src="https://bridge225.qodeinteractive.com/wp-content/cache/minify/129fc.js"></script>
+ <link rel='https://api.w.org/' href='https://bridge225.qodeinteractive.com/wp-json/' />
+ <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://bridge225.qodeinteractive.com/xmlrpc.php?rsd" />
+ <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://bridge225.qodeinteractive.com/wp-includes/wlwmanifest.xml" />
+ <meta name="generator" content="WordPress 5.3" />
+ <link rel="canonical" href="https://bridge225.qodeinteractive.com/" />
+ <link rel='shortlink' href='https://bridge225.qodeinteractive.com/' />
+ <link rel="alternate" type="application/json+oembed" href="https://bridge225.qodeinteractive.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbridge225.qodeinteractive.com%2F" />
+ <link rel="alternate" type="text/xml+oembed" href="https://bridge225.qodeinteractive.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbridge225.qodeinteractive.com%2F&#038;format=xml" />
+ 
+ <script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">//<![CDATA[
+     var dataLayer_content = {"pagePostType":"frontpage","pagePostType2":"single-page","pagePostAuthor":"admin"};
+     dataLayer.push( dataLayer_content );//]]>
+ </script>
+ <script data-cfasync="false">//<![CDATA[
+ (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+ '//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+ })(window,document,'script','dataLayer','GTM-WCC77WV');//]]>
+ </script>
+ 
+ <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
+ <style type="text/css" data-type="vc_custom-css">.pricing-buttons-hover .qbutton.white:hover {
+     border-color: #ffffff;
+     background-color: #ffffff;
+     color: #272727;
+ }
+ 
+ .q_price_table.qode_pricing_table_advanced .qode_pt_image{
+     margin-bottom: 21px;
+ }
+ 
+ .q_price_table.qode_pricing_table_advanced .price_table_inner .mark{
+     display: none;
+ }
+ .q_price_table.qode_pricing_table_advanced .price_table_inner .value{
+ color: #fff;}
+ 
+ 
+ .q_price_table.qode_pricing_table_advanced .qode_pricing_table_text li.qode_pt_title{
+     padding: 2px 0 7px;
+ }
+ 
+ .q_price_table.qode_pricing_table_advanced .qode_pricing_table_text li.pricing_table_content{
+     padding: 36px 0 0px;
+ }
+ 
+ .q_price_table.qode_pricing_table_advanced .qode_pricing_table_text li ul li{
+     padding: 5px 0 9px 0;
+ }
+ .q_circles_holder .q_circle_inner2:hover {
+     background-color: #fafafa!important;
+     border-color: #e7e7e7!important;
+ }
+ .q_price_table.active .active_text{
+     background-color: #40d8bb!important;
+ }
+ 
+ .price_in_table .price, .price_table_inner ul li.table_title .title_content, .price_in_table .value, .price_in_table .mark{
+     color: #464646;
+ }
+ .q_price_table .price_table_inner{
+     background-color: #fff;
+ }
+ .q_price_table.active .active_text span{
+     text-transform: uppercase;
+     letter-spacing: 3px;
+     line-height: 49px
+ }
+ 
+ .q_price_table.active .active_text{
+         top: -18px;
+ }
+ 
+ 
+ 
+ 
+ 
+ .price_table_inner ul li.pricing_table_content li{
+ font-size: 14px;
+ } 
+ 
+ .q_price_table.qode_pricing_table_advanced .qode_price_table_prices{
+ text-align: left;
+ }
+ 
+ .price_in_table .mark{
+ text-transform: none;
+ color: #272727;
+ font-size: 21px;
+ font-weight: 300;
+ }
+ 
+ .price_in_table .value{
+ font-size: 21px;
+ color: #272727;
+ font-weight: 400;
+ }
+ 
+  .pricing-two .qbutton{
+ font-size: 11px;
+ letter-spacing: 0.18em;
+ border-width: 1px;
+ }
+ 
+ 
+ 
+ .q_price_table:not(.qode_pricing_table_advanced){
+ border-top: none;
+ box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.08);
+ }
+ 
+ .price_table_inner ul li.table_title .title_content{
+     font-size: 26px;
+     line-height: 30px;
+     font-weight: 300;
+     letter-spacing: -0.38px;
+ }
+ .q_price_table.qode_pricing_table_advanced .qode_pricing_table_text li.pricing_table_content .q_icon_list{
+     margin-bottom: 5px;
+ }
+ 
+ .q_price_table.qode_pricing_table_advanced .qode_pricing_table_text li.pricing_table_content .q_icon_list p{
+     margin-bottom: 0px;
+ }
+ @media only screen and (min-width: 768px) and (max-width: 1200px){
+     .q_price_table.qode_pricing_table_advanced .qode_pricing_table_text{
+         padding-left: 9px!important;
+     }
+ }
+ @media only screen and (min-width: 768px) and (max-width: 1200px){
+     .q_price_table.qode_pricing_table_advanced .qode_pricing_table_text{
+         padding-left: 9px!important;
+     }
+ }
+ 
+ @media only screen and (min-width: 1201px){
+     .q_price_table.qode_pricing_table_advanced .qode_price_table_prices{
+         width: 30%;
+     }
+     .q_price_table.qode_pricing_table_advanced .qode_pricing_table_text{
+         width: 70%;
+         padding-left: 0!important;
+     }
+ }
+ 
+ @media only screen and (min-width: 1201px) and (max-width: 1400px){
+     .q_price_table.qode_pricing_table_advanced .qode_price_table_prices{
+         width: 35%;
+     }
+ }
+ @media only screen and (max-width: 768px){
+     .q_price_table.qode_pricing_table_advanced .qode_price_table_prices{
+         width: 20%;
+     }
+ }
+ @media only screen and (max-width: 1024px){
+     .qode_pricing_tables.three_columns .q_price_table.qode_pricing_table_advanced{
+         margin-bottom: 50px;
+     }
+ }
+ @media only screen and (max-width: 1024px){
+     .qode_pricing_tables.three_columns .q_price_table.qode_pricing_table_advanced{
+         width: 100%;
+     }
+ }
+ .q_price_table.qode_pricing_table_advanced .price_table_inner .price{
+     color: #fff;
+     font-weight: 500;
+     font-size: 70px;
+ }</style><style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1524559207042{padding-top: 95px !important;padding-bottom: 78px !important;}.vc_custom_1524488077701{padding-top: 0px !important;padding-bottom: 119px !important;}</style><meta name="generator" content="Powered by Slider Revolution 5.4.7.2 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+ <script type="text/javascript">function setREVStartSize(e){									
+                         try{ e.c=jQuery(e.c);var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
+                             if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
+                         }catch(d){console.log("Failure at Presize of Slider:"+d)}						
+                     };</script>
+ <noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+ <body class="home page-template page-template-full_width page-template-full_width-php page page-id-5 qode-news-1.0.4 qi-addons-for-elementor-1.0  qode-title-hidden qode_grid_1300 qode-theme-ver-14.3 qode-theme-bridge transparent_content wpb-js-composer js-comp-ver-6.0.5 vc_responsive elementor-default elementor-kit-271" itemscope itemtype="http://schema.org/WebPage">
+ <div class="wrapper">
+ <div class="wrapper_inner">
+ 
+ 
+ <header class=" scroll_header_top_area  regular transparent page_header">
+ <div class="header_inner clearfix">
+ <div class="header_top_bottom_holder">
+ <div class="header_bottom clearfix" style=' background-color:rgba(255, 255, 255, 0);'>
+ <div class="header_inner_left">
+ <div class="mobile_menu_button">
+ <span>
+ <i class="qode_icon_font_awesome fa fa-bars "></i> </span>
+ </div>
+ <div class="logo_wrapper">
+ <div class="q_logo">
+    <img src="./Spices.jpeg"/>
+ </div>
+ </div> 
+ </div>
+ <div class="header_inner_right">
+ <div class="side_menu_button_wrapper right">
+ <div class="header_bottom_right_widget_holder"><div class="widget_text header_bottom_widget widget_custom_html"><div class="textwidget custom-html-widget"><a itemprop="url" href="" target="_self" class="qbutton  large default" style="font-style: normal; font-weight: 600; text-transform: lowercase; font-size: 15px; letter-spacing: -0.3px; " rel="noopener noreferrer">   Log in </a></div></div></div>
+  <div class="side_menu_button">
+ </div>
+ </div>
+ </div>
+ <nav class="main_menu drop_down right">
+ <ul id="menu-main-menu" class=""><li id="nav-menu-item-119" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5 current_page_item active narrow"><a href="" class=" current "><i class="menu_icon blank fa"></i><span>Home</span><span class="plus"></span></a></li>
+ <li id="nav-menu-item-127" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="https://drive.google.com/file/d/1Hg3nN-6O7ZqTEIMrsCvNDFPkc1kc9WCJ/view?usp=sharing" class=""><i class="menu_icon blank fa"></i><span>Help</span><span class="plus"></span></a></li>
+ <li id="nav-menu-item-128" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="" class=""><i class="menu_icon blank fa"></i><span>Issuer</span><span class="plus"></span></a></li>
+ <li id="nav-menu-item-129" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="https://loginhtmform.ccbp.tech/" class=""><i class="menu_icon blank fa"></i><span>Prover</span><span class="plus"></span></a></li>
+ </ul> </nav>
+ <nav class="mobile_menu">
+ <ul id="menu-main-menu-1" class=""><li id="mobile-menu-item-119" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5 current_page_item active"><a href="https://bridge225.qodeinteractive.com/" class=" current "><span>Home</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+ <li id="mobile-menu-item-127" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="" class=""><span>Partners</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+ <li id="mobile-menu-item-128" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="" class=""><span>Invest</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+ <li id="mobile-menu-item-129" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="" class=""><span>Contact</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+ </ul></nav> </div>
+ </div>
+ </div>
+ </header> <a id="back_to_top" href="#">
+ <span class="fa-stack">
+ <i class="qode_icon_font_awesome fa fa-arrow-up "></i> </span>
+ </a>
+ <div class="content ">
+ <div class="content_inner  ">
+ <div class="full_width">
+ <div class="full_width_inner">
+ <div class="vc_row wpb_row section vc_row-fluid " style=' text-align:left;'><div class=" full_section_inner clearfix"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_revslider_element wpb_content_element"><link href="https://fonts.googleapis.com/css?family=Quicksand:700" rel="stylesheet" property="stylesheet" type="text/css" media="all">
+ <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-source="gallery" style="margin:0px auto;background:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+ 
+ <div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.7.2">
+ <ul> 
+ <li data-index="rs-1" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+ 
+ <img src="https://bridge225.qodeinteractive.com/wp-content/plugins/revslider/admin/assets/images/transparent.png" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+ 
+ 
+ <div class="tp-caption  " id="slide-1-layer-5" data-x="['left','left','left','left']" data-hoffset="['39','45','31','19']" data-y="['middle','middle','middle','middle']" data-voffset="['5','-29','125','124']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":10,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power2.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5;"><img src="https://bridge225.qodeinteractive.com/wp-content/uploads/2018/04/slider1-graphic1.png" alt="" data-ww="['1261px','865px','701px','325px']" data-hh="['879px','603px','489px','226px']" width="1261" height="879" data-no-retina> </div>
+ 
+ 
+ 
+ 
+ </li>
+ </ul>
+ <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div> </div>
+ <script>var htmlDiv = document.getElementById("rs-plugin-settings-inline-css"); var htmlDivCss="";
+                 if(htmlDiv) {
+                     htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+                 }else{
+                     var htmlDiv = document.createElement("div");
+                     htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
+                     document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
+                 }
+             </script>
+ <script type="text/javascript">
+ if (setREVStartSize!==undefined) setREVStartSize(
+     {c: '#rev_slider_1_1', responsiveLevels: [1920,1441,850,480], gridwidth: [1920,1441,850,480], gridheight: [915,768,960,720], sliderLayout: 'fullwidth'});
+             
+ var revapi1,
+     tpj;	
+ (function() {			
+     if (!/loaded|interactive|complete/.test(document.readyState)) document.addEventListener("DOMContentLoaded",onLoad); else onLoad();	
+     function onLoad() {				
+         if (tpj===undefined) { tpj = jQuery; if("off" == "on") tpj.noConflict();}
+     if(tpj("#rev_slider_1_1").revolution == undefined){
+         revslider_showDoubleJqueryError("#rev_slider_1_1");
+     }else{
+         revapi1 = tpj("#rev_slider_1_1").show().revolution({
+             sliderType:"standard",
+             jsFileLocation:"//bridge225.qodeinteractive.com/wp-content/plugins/revslider/public/assets/js/",
+             sliderLayout:"fullwidth",
+             dottedOverlay:"none",
+             delay:9000,
+             navigation: {
+                 onHoverStop:"off",
+             },
+             responsiveLevels:[1920,1441,850,480],
+             visibilityLevels:[1920,1441,850,480],
+             gridwidth:[1920,1441,850,480],
+             gridheight:[915,768,960,720],
+             lazyType:"none",
+             shadow:0,
+             spinner:"off",
+             stopLoop:"off",
+             stopAfterLoops:-1,
+             stopAtSlide:-1,
+             shuffle:"off",
+             autoHeight:"off",
+             disableProgressBar:"on",
+             hideThumbsOnMobile:"off",
+             hideSliderAtLimit:0,
+             hideCaptionAtLimit:0,
+             hideAllCaptionAtLilmit:0,
+             debugMode:false,
+             fallbacks: {
+                 simplifyAll:"off",
+                 nextSlideOnWindowFocus:"off",
+                 disableFocusListener:false,
+             }
+         });
+     }; /* END OF revapi call */
+     
+  }; /* END OF ON LOAD FUNCTION */
+ }()); /* END OF WRAPPING FUNCTION */
+ </script>
+ </div></div></div></div></div></div></div>
+ 
+<div class="">
+    <img src="./supplychain-img-4.png"/>
+</div>
+<div class="vc_row wpb_row section vc_row-fluid  pricing-one vc_custom_1524488077701 grid_section" style=' text-align:left;'>
+    <div class=" section_inner clearfix">
+        <div class='section_inner_margin clearfix'>
+            <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-offset-0 vc_col-lg-12 vc_col-md-offset-2 vc_col-md-8 vc_col-sm-offset-0 vc_col-xs-12">
+                <div class="vc_column-inner"><div class="wpb_wrapper"><div class="qode_pricing_tables clearfix three_columns">
+                    <div class="q_price_table  qode_pricing_table_advanced"><div class="qode_pt_image"><img src="https://i.ibb.co/cDDWT4R/a.jpg" alt="o" /></div>
+                    <div class="price_table_inner"><div class="qode_price_table_prices"><div class="qode_price_table_prices_inner">
+                        </div></div>
+                        <p>Fertilisers are additional substances supplied to the crops to increase their productivity. These are used by the farmers daily to increase the crop yield. These fertilisers contain essential nutrients required by the plants, including nitrogen, potassium, and phosphorus. They also enhance the water retention capacity of the soil and increase its fertility.</p>
+                        <div class="text-center"> 
+                            <img class="img text-center" src="https://i.ibb.co/ZYhkKBR/ferti.jpg"/>
+                            </div>
+                            <div class="q_icon_list">
+                                
+                                    </div><div class="q_icon_list">
+                                        </div><div class="q_icon_list">
+                                            </div><div class="q_icon_list">
+                                                </div> <div class="vc_empty_space" style="height: 35px"><span class="vc_empty_space_inner">
+ <span class="empty_space_image"></span>
+ </span></div>
+ </li>
+ <li class="price_button">
+    <a itemprop="url" class="qbutton "  target="_blank">Scan QR</a>
+    </div></div><div class="q_price_table  qode_pricing_table_advanced">
+        <div class="qode_pt_image"><img src="https://i.ibb.co/dkHQfGj/c.jpg" alt="o" /></div>
+        <div class="price_table_inner"><div class="qode_price_table_prices"><div class="qode_price_table_prices_inner"></div></div>   
+        <p>Spices are fruits, roots, barks, seeds, or any other plant substance used primarily in flavoring, or for the coloring and preservation of food. Spices often have antimicrobial properties, and they are occasionally ground into powder for convenient usage. Spices are more commonly used in climates that are warm, since these climates are far likelier to have outbreaks of infectious diseases, </p>
+                        <div class="text-center"> 
+                            <img class="img text-center" src="https://i.ibb.co/TLbC33C/spice.jpg"/>
+                            </div><div class="q_icon_list"></div><div class="q_icon_list"></div><div class="q_icon_list"></div><div class="q_icon_list"></div><div class="q_icon_list"></div> <div class="vc_empty_space" style="height: 35px">
+ </div>
+ </li><li class="price_button"><a itemprop="url" class="qbutton " href=" https://qodeinteractive.com/purchase/bridge/" target="_blank">Scan QR</a></li></ul></div></div><div class="q_price_table  qode_pricing_table_advanced"><div class="qode_pt_image"><img src="https://i.ibb.co/Mp1NMHb/b.jpg" alt="o" /></div><div class="price_table_inner"><div class="qode_price_table_prices"><div class="qode_price_table_prices_inner"></div></div><p>Seeds have better adaptive strategies for dispersal to new habitats for better survival.<br/>Seeds have reserve food materials to nourish the seedlings during seed germination.<br/>The hard seed coat provides protection to the young embryoWhen consumed as part of a healthy diet, seeds can help reduce blood sugar, cholesterol and blood pressure</p>
+                        <div class="text-center"> 
+                        <img class="img text-center" src="./QRSEEDSNEW.png"/>
+                        </div><div class="q_icon_list"></div><div class="q_icon_list"></div><div class="q_icon_list"></div><div class="q_icon_list"></div><div class="q_icon_list"></div> <div class="vc_empty_space" style="height: 35px"><span class="vc_empty_space_inner">
+ <span class="empty_space_image"></span>
+ </span></div>
+ </li><li class="price_button"><a itemprop="url" class="qbutton " href=" https://qodeinteractive.com/purchase/bridge/" target="_blank">scan QR</a></li></ul></div></div></div></div></div></div></div></div></div><div class="vc_row wpb_row section vc_row-fluid  grid_section" style=' text-align:center;'><div class=" section_inner clearfix"><div class='section_inner_margin clearfix'><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-offset-0 vc_col-lg-6 vc_col-md-offset-0 vc_col-md-12 vc_col-sm-offset-0 vc_col-xs-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="qode_video_box disabled_hover_overlay">
+ <a itemprop="image" class="qode_video_image" href="https://www.youtube.com/watch?v=SSo_EIwHSd4" data-rel="prettyPhoto">
+ <img src="https://bridge225.qodeinteractive.com/wp-content/uploads/2018/04/video-background.png" />
+ <span class="qode_video_box_button_holder">
+ <span class="qode_video_box_button">
+ <span class="qode_video_box_button_arrow">
+ </span>
+ </span>
+ </span>
+ </a>
+ </div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-offset-0 vc_col-lg-6 vc_col-md-offset-0 vc_col-md-12 vc_col-sm-offset-0 vc_col-xs-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class='q_elements_holder one_column responsive_mode_from_768'><div class='q_elements_item ' data-animation='no'><div class='q_elements_item_inner'><div class='q_elements_item_content q_elements_holder_custom_552574' style='padding:70px 53px 90px 22px'><style type="text/css" data-type="q_elements_custom_padding" scoped>@media only screen and (min-width: 1280px) and (max-width: 1440px) { .q_elements_item_content.q_elements_holder_custom_552574{ padding: 5px 53px 90px 22px !important;}}@media only screen and (min-width: 1024px) and (max-width: 1280px) { .q_elements_item_content.q_elements_holder_custom_552574{ padding: 5px 53px 90px 22px !important;}}@media only screen and (min-width: 768px) and (max-width: 1024px) { .q_elements_item_content.q_elements_holder_custom_552574{ padding: 50px 177px 90px 161px !important;}}@media only screen and (min-width: 600px) and (max-width: 768px) { .q_elements_item_content.q_elements_holder_custom_552574{ padding: 50px 29px 90px 22px !important;}}@media only screen and (min-width: 480px) and (max-width: 600px) { .q_elements_item_content.q_elements_holder_custom_552574{ padding: 70px 0px 90px 0px !important;}}@media only screen and (max-width: 480px) { .q_elements_item_content.q_elements_holder_custom_552574{ padding: 70px 0px 90px 0px !important;}}</style>
+ <div class="wpb_text_column wpb_content_element ">
+ <div class="wpb_wrapper">
+ <h1 style="text-align: left; margin-top:120px;">Unsure? learn how <span style="color: #00ffff;">Blockchain</span>  works and how to implement it</h1>
+ </div>
+ </div> <div class="vc_empty_space" style="height: 40px"><span class="vc_empty_space_inner">
+ <span class="empty_space_image"></span>
+ </span></div>
+ <div class="wpb_text_column wpb_content_element ">
+ <div class="wpb_wrapper">
+ 
+ </div>
+ </div> </div></div></div></div></div></div></div></div></div></div>
+ </div>
+ </div>
+ </div>
+ </div>
+ <footer>
+ <div class="footer_inner clearfix">
+ <div class="footer_top_holder">
+ <div class="footer_top">
+ <div class="container">
+ <div class="container_inner">
+ <div id="media_image-2" class="widget widget_media_image"></div><div id="custom_html-2" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"> <div class="vc_empty_space" style="height: 35px"><span class="vc_empty_space_inner">
+ <span class="empty_space_image"></span>
+ </span></div>
+ </div></div><div id="nav_menu-2" class="widget widget_nav_menu"><div class="menu-custom-menu-container"><ul id="menu-custom-menu" class="menu"><li id="menu-item-133" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5 current_page_item menu-item-133"><a href="" aria-current="page">Home</a></li>
+ <li id="menu-item-131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-131"><a href="https://drive.google.com/file/d/1Hg3nN-6O7ZqTEIMrsCvNDFPkc1kc9WCJ/view?usp=sharing">Help</a></li>
+ <li id="menu-item-132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-132"><a href="">Issuer</a></li>
+ <li id="menu-item-130" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-130"><a href="https://loginhtmform.ccbp.tech/">Prover</a></li>
+ </ul></div></div> </div>
+ </div>
+ </div>
+ </div>
+ <div class="footer_bottom_holder">
+ <div class="footer_bottom">
+ 
+ </div>
+ </div>
+ </footer>
+ </div>
+ </div>
+ <div class="qode-demos-toolbar" data-demo="bridge225.qodeinteractive.com"></div></div>
+ 
+ <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCC77WV"
+ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script type="text/javascript">
+                 function revslider_showDoubleJqueryError(sliderID) {
+                     var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
+                     errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";
+                     errorMessage += "<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";
+                     errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
+                     errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "</span>";
+                         jQuery(sliderID).show().html(errorMessage);
+                 }
+             </script>
+ <script type='text/javascript'>
+ /* <![CDATA[ */
+ var wpcf7 = {"apiSettings":{"root":"https:\/\/bridge225.qodeinteractive.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
+ /* ]]> */
+ </script>
+ <script src="https://bridge225.qodeinteractive.com/wp-content/cache/minify/0fef6.js"></script>
+ <script type='text/javascript' src='https://toolbar.qodeinteractive.com/_qode_toolbar/assets/js/jquery.lazy.min.js?ver=5.3'></script>
+ <script type='text/javascript' src='https://toolbar.qodeinteractive.com/_qode_toolbar/assets/js/qode-demos-modules.js?ver=5.3'></script>
+ <script type='text/javascript' src='https://toolbar.qodeinteractive.com/_qode_toolbar/assets/js/swiper.min.js?ver=5.3'></script>
+ <script src="https://bridge225.qodeinteractive.com/wp-content/cache/minify/a39a9.js"></script>
+ <script type='text/javascript'>
+ /* <![CDATA[ */
+ var qodefGlobal = {"vars":{"adminBarHeight":0,"iconArrowLeft":"<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 34.2 32.3\" xml:space=\"preserve\" style=\"stroke-width: 2;\"><line x1=\"0.5\" y1=\"16\" x2=\"33.5\" y2=\"16\"\/><line x1=\"0.3\" y1=\"16.5\" x2=\"16.2\" y2=\"0.7\"\/><line x1=\"0\" y1=\"15.4\" x2=\"16.2\" y2=\"31.6\"\/><\/svg>","iconArrowRight":"<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 34.2 32.3\" xml:space=\"preserve\" style=\"stroke-width: 2;\"><line x1=\"0\" y1=\"16\" x2=\"33\" y2=\"16\"\/><line x1=\"17.3\" y1=\"0.7\" x2=\"33.2\" y2=\"16.5\"\/><line x1=\"17.3\" y1=\"31.6\" x2=\"33.5\" y2=\"15.4\"\/><\/svg>","iconClose":"<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 9.1 9.1\" xml:space=\"preserve\"><g><path d=\"M8.5,0L9,0.6L5.1,4.5L9,8.5L8.5,9L4.5,5.1L0.6,9L0,8.5L4,4.5L0,0.6L0.6,0L4.5,4L8.5,0z\"\/><\/g><\/svg>"}};
+ /* ]]> */
+ </script>
+ <script src="https://bridge225.qodeinteractive.com/wp-content/cache/minify/d91e2.js"></script>
+ <script type='text/javascript'>
+ /* <![CDATA[ */
+ var qodeLike = {"ajaxurl":"https:\/\/bridge225.qodeinteractive.com\/wp-admin\/admin-ajax.php"};
+ /* ]]> */
+ </script>
+ <script src="https://bridge225.qodeinteractive.com/wp-content/cache/minify/4d4aa.js"></script>
+ <script type='text/javascript'>
+ /* <![CDATA[ */
+ var QodeAdminAjax = {"ajaxurl":"https:\/\/bridge225.qodeinteractive.com\/wp-admin\/admin-ajax.php"};
+ var qodeGlobalVars = {"vars":{"qodeAddingToCartLabel":"Adding to Cart..."}};
+ /* ]]> */
+ </script>
+ <script src="https://bridge225.qodeinteractive.com/wp-content/cache/minify/4d0bd.js"></script>
+ <script type='text/javascript'>
+ /* <![CDATA[ */
+ var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result found. Use up and down arrow keys to navigate.","manyResults":"%d results found. Use up and down arrow keys to navigate.","itemSelected":"Item selected."};
+ /* ]]> */
+ </script>
+ <script src="https://bridge225.qodeinteractive.com/wp-content/cache/minify/5f16d.js"></script>
+ <script type='text/javascript'>
+ jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+ </script>
+ <script src="https://bridge225.qodeinteractive.com/wp-content/cache/minify/4898f.js"></script>
+ </body>
+ </html>
+ 
